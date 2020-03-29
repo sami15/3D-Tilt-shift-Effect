@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #2E3436FF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card{
+    background-color: #FCE94FFF;
+    width: 300px;
+    height: 350px;
+    opacity: 0.9;
+    border-radius: 20px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	transform-style: preserve-3d ;
+    
+}
+.card img{
+	width: 200px;
+	transform: translateZ(30px);
+}
+.container{
+perspective: 1000px;
+}
